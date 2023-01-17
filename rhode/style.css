@@ -1,0 +1,132 @@
+body {
+    background-image: url(img/FOONDO-HOME.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#shop{
+    background-image: url(img/rhode_skin_por_que_la_demandaron.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 100px;
+    width: 250px;
+    padding-left: 50px;
+}
+.botones{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;;
+    background: transparent;
+    font-style: oblique;
+    font-size: 25px ;
+    padding: 0;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+    margin: 25px 10px;
+
+}
+
+.botones li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.botones li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: dimgray;
+}
+
+#redes{
+    background: none;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.texto {
+    text-align: center;
+    margin: 50px 70px;
+    padding: 150px 300px ;
+    min-width: 100px;
+    background-color: rgb(52, 52, 61);
+    opacity: 0.9
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    text-align:center ;
+    justify-content: space-between;
+}
+
+
+#futures-contain{
+    padding: 90px 150px;
+    margin: 100px;
+    background-image: url(img/FOONDO-HOME.jpeg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    font-size: larger;
+    
+}
+
+.contactus{
+    text-align: center;
+    margin: 100px 650px;
+    font-size: larger;
+    background-color: rgb(116, 111, 135);
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.form{
+    display: inline-grid;
+    padding: 100px;
+    margin: 0px 300px;
+    margin-bottom: 10px;
+    background-color: rgb(116, 111, 135) ;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-align: left;
+}
+
+
+.datos{
+    background-color: rgb(143, 143, 162);
+}
+
+
+#about{
+    background-image: url(img/cara-hailey.jpeg);
+}
+
+.about-text{
+    text-align: center;
+    margin: 50px 70px;
+    padding: 150px 300px ;
+    min-width: 100px;
+    background-color: rgb(147, 144, 140);
+    opacity: 0.5
+}
+
+.parrafo-about{
+    color: black;
+}

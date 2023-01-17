@@ -1,0 +1,83 @@
+body {
+    background-image: url(img/FOONDO-HOME.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#shop{
+    background-image: url(img/rhode_skin_por_que_la_demandaron.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 100px;
+    width: 250px;
+    padding-left: 50px;
+}
+.botones{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;;
+    background: transparent;
+    font-style: oblique;
+    font-size: 25px ;
+    padding: 0;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+    margin: 25px 10px;
+
+}
+
+.botones li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.botones li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: dimgray;
+}
+
+#redes{
+    background: none;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.texto {
+    text-align: center;
+    margin: 50px 50px;
+    padding: 250px ;
+    background-color: transparent;
+    min-width: 100px;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#caramel{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border:10px;
+    border-color: beige;
+}
